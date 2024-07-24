@@ -6,7 +6,9 @@
   font-variation-settings:
     "wdth" 100;
 }
-
+.nav-title{
+    font-weight: bolder;
+}
 .white-bg{
     background-color: white;
 }
@@ -17,6 +19,7 @@
     text-decoration: none;
     font-size: 16px;
     border-radius: 8px;
+    padding: 10px;
 }
 
 nav{
@@ -38,7 +41,7 @@ nav ul li {
 
 .banner{
     display: flex;
-    height: 652px;
+    height: 550px;
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
 }
@@ -63,4 +66,183 @@ nav ul li {
     border-radius: 5px;
     border: none;
     padding: 10px;
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+
+.web{
+    padding: 30px 150px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+.web-content{
+    padding: 20px;
+}
+
+.web-banner{
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 150px;
+    background-color: azure;
+    gap: 20px;
+    height: 220px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.btn-common{
+    padding: 5px;
+}
+
+.text-section{
+    width: 40%;
+}
+
+.inspire{
+    padding: 30px 150px;
+    border-radius: 10px;
+    background-color:white;
+    text-align: center;
+    
+}
+
+.target-container{
+    display: flex;
+    gap: 24px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.text-center{
+    text-align: center;
+}
+.target{
+    margin-top: 16px;
+    padding: 30px 150px;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.10);
+}
+
+.learn{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.target-box{
+    margin-top: 16px;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(247, 245, 245, 0.1);
+}
+
+.box1{
+    background-color: rgb(255, 246, 244);
+}
+
+.box2{
+    background-color: rgb(243, 246, 253);
+}
+
+.box3{
+    background-color: rgb(255, 253, 243);
+}
+
+.next-target{
+    margin-top: 16px;
+    padding: 30px 30px;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.next-container{
+    display: list-item;
+    list-style: none;
+}
+
+.next-skill{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.support{
+    margin-top: 16px;
+    padding: 10px 60px;
+    border-radius: 5px;
+}
+
+.support-content{
+    align-items: center;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    height: 350px;
+    border-radius: 8px;
+    padding: 40px 60px;
+
+}
+
+.input-section{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 50px 60px;
+
+}
+
+.input-box{
+    font-size: medium;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 60%;
+    height: 30px;
+    background-color: white;
+    margin-left: 44px;
+    border: none;
+
+}
+.btn-submit{
+    padding: 10px;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer{
+    display:inline-table;
+    align-items: center;
+    background-color: #e1dcdc;
+    width: 100%;
+    padding: 20px;
+}
+.footer-right{
+    text-align: right;
+    margin-right: 30px;
 }
